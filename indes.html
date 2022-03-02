@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Organ Lelo</title>
+</head>
+
+<body>
+    <header class="head">
+        <div class="left">
+
+            <h1>Organ Lelo</h1>
+
+        </div>
+        <div class="right">
+            <ul>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#Sell">
+                    <li>Sell</li>
+                </a>
+                <a href="#Buy">
+                    <li>Buy</li>
+                </a>
+                <a href="#HappyClients">
+                    <li>Happy Clients</li>
+                </a>
+                <a href="#ContactUs">
+                    <li>Contact Us</li>
+                </a>
+            </ul>
+        </div>
+    </header>
+    <section class="Home" id="Home">
+        <div class="contenthome">
+            <h2 id="homeh2">
+                <h2>"Happy To See You Well </h2>
+                <h2>Because We Only Deal </h2>
+                <h2>With Healthy Bodies"</h2>
+            </h2>
+            <br>
+
+            <h3 id="homeh3">We are Here to fullfil Your all needs Either Money or Organ.</h3>
+        </div>
+        <img src="organn.png" alt="" id="homepic">
+    </section>
+    <section class="Sell" id="Sell">
+        <h2 class="h2">Sell Your Organs For Impressing Your loved one (upto 80% Extra Money For Drugs Free Body)</h2>
+        <img src="pic/1.jpg" alt="" class="organ">
+        <img src="pic/3.jpg" alt="" class="organ">
+        <img src="pic/5.jpg" alt="" class="organ">
+        <img src="pic/7.jpg" alt="" class="organ">
+        <img src="pic/9.jpg" alt="" class="organ">
+        <img src="pic/11.jpg" alt="" class="organ">
+
+    </section>
+    <section class="Buy" id="Buy">
+        <h2 class="h2">Buy Organs From Us For Your Loved One.....Because We taken Them From Someones loved one</h2>
+
+        <img src="pic/2.jpg" alt="" class="organ">
+        <img src="pic/4.jpg" alt="" class="organ">
+        <img src="pic/6.jpg" alt="" class="organ">
+        <img src="pic/8.jpg" alt="" class="organ">
+        <img src="pic/10.jpg" alt="" class="organ">
+        <img src="pic/12.jpg" alt="" class="organ">
+    </section>
+    <section class="HappyClients" id="HappyClients">
+        <h2 class="h2">Our happy Clients</h2>
+        <img src="client/13.jpg" alt="" class="client">
+        <img src="client/14.jpg" alt="" class="client">
+        <img src="client/15.jpg" alt="" class="client">
+
+    </section>
+    <section class="ContactUs" id="ContactUs">
+        <h2 class="h2">Contact Us</h2>
+        <section style="min-height: 78vh;">
+            <div class="container">
+                <form action="https://formspree.io/f/xqknbbqa" method="POST" id="my-form">
+
+                    <div class="form-group">
+                        <label for="firstName"> Full Name*</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="BloodGroup">Blood Group*</label>
+                        <Select id="BloodGroup" required>
+                            <option value="Select">-Select-</option>
+                            <option value="A+">A+</option>
+                            <option value="A-">A-</option>
+                            <option value="B+">B+</option>
+                            <option value="B-">B-</option>
+                            <option value="AB+">AB+</option>
+                            <option value="AB-">AB-</option>
+                            <option value="O+">O+</option>
+                            <option value="O-">O-</option>
+                            <option value="check">Check Krlo</option>
+
+                        </Select>
+                    </div>
+                    <div class="form-group">
+                        <label for="sellbuy">Deal In*</label>
+                        <Select id="sellbuy" required>
+                            <option value="slect">-Select-</option>
+                            <option value="sell">Selling</option>
+                            <option value="buy">Buying</option>
+                        </Select>
+                    </div>
+                    <div class="form-group">
+                        <label for="organ">Organ Type*</label>
+                        <Select id="sellbuy" required>
+                            <option value="select">-Select-</option>
+                            <option value="kidney">Kidney</option>
+                            <option value="liver">Liver</option>
+                            <option value="lungs">Lungs</option>
+                            <option value="heart">Heart</option>
+                            <option value="bone marrow">Bone Marrow</option>
+                            <option value="eye">Eye</option>
+                        </Select>
+                    </div>
+                    <div class="form-group">
+                        <label for="demand"> Budget/Demand</label>
+                        <input type="number" id="demand" name="demand" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="massage">Massage</label>
+                        <textarea name="massage" id="massage" cols="30" rows="3" required></textarea>
+                    </div>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div id="status"></div>
+        </section>
+    </section>
+    <!-- <footer class="foot" id="foot">footer</footer> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
